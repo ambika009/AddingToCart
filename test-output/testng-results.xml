@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-14T20:38:26Z" name="Default suite" finished-at="2021-02-14T20:38:45Z" duration-ms="18793">
+  <suite started-at="2021-02-14T21:12:18Z" name="Default suite" finished-at="2021-02-14T21:12:34Z" duration-ms="15454">
     <groups>
     </groups>
-    <test started-at="2021-02-14T20:38:26Z" name="Default test" finished-at="2021-02-14T20:38:45Z" duration-ms="18793">
+    <test started-at="2021-02-14T21:12:18Z" name="Default test" finished-at="2021-02-14T21:12:34Z" duration-ms="15454">
       <class name="com.sr.Testscripts.Addingtocart">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T20:38:26Z" name="openapp" finished-at="2021-02-14T20:38:40Z" duration-ms="13551" status="PASS">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T21:12:18Z" name="openapp" finished-at="2021-02-14T21:12:31Z" duration-ms="12524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="tc1()[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T20:38:40Z" name="tc1" finished-at="2021-02-14T20:38:43Z" duration-ms="2556" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T21:12:31Z" name="tc1" finished-at="2021-02-14T21:12:33Z" duration-ms="2161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T20:38:43Z" name="closeapp" finished-at="2021-02-14T20:38:45Z" duration-ms="2650" status="PASS">
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.Testscripts.Addingtocart@117e949d]" started-at="2021-02-14T21:12:33Z" name="closeapp" finished-at="2021-02-14T21:12:34Z" duration-ms="734" status="PASS">
           <params>
             <param index="0">
               <value>
