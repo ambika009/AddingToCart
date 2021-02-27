@@ -10,23 +10,24 @@ import com.sr.pompages.Login;
 public class Addingtocart extends BaseClass {
 
 	@Test
-	public void tc1()
+	public void tc1() throws InterruptedException
 	{
 		Login l=new Login(driver);
 
-		ut.mouseAction(driver,l.getCoursetab());
+		util.mouseAction(driver,l.getCoursetab());
 		
 		l.seleniumtrainingbtn();
 		
 		Addtocart a=new Addtocart(driver);
-		ut.doubleClick(driver,a.getAddbtn() );
+		util.doubleClick(driver,a.getAddbtn() );
 		
 		a.addtocartbtn();
 		
-		ut.alertpopup(driver);
+		util.alertpopup(driver);
 		
 		a.cartbtn();
 		
 		a.gotocartbtn();
+		Thread.sleep(2000);
 	}
 }

@@ -23,7 +23,7 @@ public class BaseClass implements AutoConstant {
 	
 	public Propertyfile p;
 	public Photo p1;
-	public Utilies ut=new Utilies();
+	public Utilies util=new Utilies();
 	
 	@BeforeMethod
 	public void openapp() throws FileNotFoundException, IOException
